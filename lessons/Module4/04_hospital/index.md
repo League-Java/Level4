@@ -1,0 +1,21 @@
+---
+assignment: 04_hospital
+dir: levels/Level4/Module4/src/_04_hospital
+lesson: 04_hospital
+level: Level4
+module: Module4
+oassignment: 04_hospital
+opath: levels/Level4/Module4/src/_04_hospital
+title: 04 Hospital
+---
+# 04 Hospital
+
+{{ forkrepo(fm_level, fm_module) }}
+
+{{ reporef(fm_level, fm_module) }}
+
+
+
+
+{{ javaref(fm_level, fm_module,fm_lesson,fm_assignment, fm_dir) }}
+

@@ -1,24 +1,54 @@
 base: /BaseUrl/
-description: A Demo of the League Curriculum websites
-title: League Demo
+description: Documentation and links for League Java Level4
+title: Java Level 4
 tagline: Igniting Young Minds Through Programming
 pages:
-  - index.md
-  - about.md
+- index.md
+- about.md
 resources:
-  - flag.png
-  - word-logo.png
+- flag.png
+- word-logo.png
 sidebar:
-  - path: /
-    title: Introduction
+- path: /
+  title: Introduction
 lessons:
-  
-  lesson1:
-    title: Getting Started # neet a title b/c there is no index.md
+  Module0:
+    title: Module0
     assignments:
-     - lesson1/assignment_a.md
-  lesson2:
-    # title: No Title # Don't need title, has index.md
+    - Module0/00_Intro_To_2D_Arrays
+    - Module0/01_Crazy_Digital_Painting
+    - Module0/02_Pixel_Art
+    - Module0/03_Conways_Game_of_Life
+    - Module0/04_Maze_Maker
+    - Module0/extras
+  Module1:
+    title: Module1
     assignments:
-    - lesson2/assignment_b.md
-
+    - Module1/00_Intro_To_Generics
+    - Module1/01_Custom_ArrayList
+    - Module1/02_Intro_to_Switch_Statements
+    - Module1/03_Switch_Statement_Practice
+    - Module1/04_Intro_To_Enums
+    - Module1/05_Enum_Stuff
+    - Module1/06_Snake
+  Module2:
+    title: Module2
+    assignments:
+    - Module2/StringMethods
+  Module3:
+    title: Module3
+    assignments:
+    - Module3/01_introduction
+    - Module3/02_gotta_catchem_all
+  Module4:
+    title: Module4
+    assignments:
+    - Module4/01_introduction_to_encapsulation
+    - Module4/02_introduction_to_polymorphism
+    - Module4/03_polymorphs
+    - Module4/04_hospital
+  Module5:
+    title: Module5
+    assignments:
+    - Module5/00_intro_to_Linked_Lists_EMPTY
+    - Module5/01_intro_to_binary_trees_EMPTY

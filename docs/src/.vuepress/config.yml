@@ -1,4 +1,4 @@
-base: /New_Curriculum_Template/
+base: /Level4/
 description: A Demo of the League Curriculum websites
 head:
 - - meta
@@ -18,7 +18,7 @@ plugins:
 - '@vuepress/plugin-back-to-top'
 - '@vuepress/plugin-medium-zoom'
 themeConfig:
-  displayAllHeaders: true
+  displayAllHeaders: false
   docsDir: ''
   editLinkText: ''
   editLinks: false
@@ -34,14 +34,65 @@ themeConfig:
   - path: /
     title: Introduction
   - children:
-    - path: /lessons/lesson1/assignment_a/
-      title: Assignment A
+    - path: /lessons/Module0/00_Intro_To_2D_Arrays/
+      title: 00 Intro To 2D Arrays
+    - path: /lessons/Module0/01_Crazy_Digital_Painting/
+      title: 01 Crazy Digital Painting
+    - path: /lessons/Module0/02_Pixel_Art/
+      title: 02 Pixel Art
+    - path: /lessons/Module0/03_Conways_Game_of_Life/
+      title: 03 Conways Game Of Life
+    - path: /lessons/Module0/04_Maze_Maker/
+      title: 04 Maze Maker
+    - path: /lessons/Module0/extras/
+      title: Extras The Wrong Way Cow
     collapsable: false
-    title: Getting Started
+    title: Module0
   - children:
-    - path: /lessons/lesson2/assignment_b/
-      title: Assignment B
+    - path: /lessons/Module1/00_Intro_To_Generics/
+      title: 00 Intro To Generics
+    - path: /lessons/Module1/01_Custom_ArrayList/
+      title: 01 Custom Arraylist
+    - path: /lessons/Module1/02_Intro_to_Switch_Statements/
+      title: 02 Intro To Switch Statements
+    - path: /lessons/Module1/03_Switch_Statement_Practice/
+      title: 03 Switch Statement Practice
+    - path: /lessons/Module1/04_Intro_To_Enums/
+      title: 04 Intro To Enums
+    - path: /lessons/Module1/05_Enum_Stuff/
+      title: 05 Enum Stuff
+    - path: /lessons/Module1/06_Snake/
+      title: 06 Snake
     collapsable: false
-    path: /lessons/lesson2/
-    title: Lesson 2
+    title: Module1
+  - children:
+    - path: /lessons/Module2/StringMethods/
+      title: Stringmethods
+    collapsable: false
+    title: Module2
+  - children:
+    - path: /lessons/Module3/01_introduction/
+      title: 01 Introduction
+    - path: /lessons/Module3/02_gotta_catchem_all/
+      title: 02 Gotta Catchem All
+    collapsable: false
+    title: Module3
+  - children:
+    - path: /lessons/Module4/01_introduction_to_encapsulation/
+      title: 01 Introduction To Encapsulation
+    - path: /lessons/Module4/02_introduction_to_polymorphism/
+      title: 02 Introduction To Polymorphism
+    - path: /lessons/Module4/03_polymorphs/
+      title: 03 Polymorphs
+    - path: /lessons/Module4/04_hospital/
+      title: 04 Hospital
+    collapsable: false
+    title: Module4
+  - children:
+    - path: /lessons/Module5/00_intro_to_Linked_Lists_EMPTY/
+      title: 00 Intro To Linked Lists Empty
+    - path: /lessons/Module5/01_intro_to_binary_trees_EMPTY/
+      title: 01 Intro To Binary Trees Empty
+    collapsable: false
+    title: Module5
 title: League Demo
