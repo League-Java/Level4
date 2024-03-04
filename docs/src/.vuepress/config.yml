@@ -1,5 +1,5 @@
 base: /Level4/
-description: A Demo of the League Curriculum websites
+description: Documentation and links for League Java Level4
 head:
 - - meta
   - content: '#F37121'
@@ -95,4 +95,4 @@ themeConfig:
       title: 01 Intro To Binary Trees Empty
     collapsable: false
     title: Module5
-title: League Demo
+title: Java Level 4
